@@ -1,0 +1,95 @@
+header information {
+    html {
+
+        <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header_content_left">
+                <img src="boot_img/H-gest (1).png" alt="logo">
+                 </div>
+                <div class="header_content_right">
+                    <div class="header_contentright_picture">
+                        <img src="boot_img/Smiling Nurse.jpeg" alt="">
+                    </div>
+                    <div class="header_contentright_profile-name">
+                        UserName
+                    </div>
+                    <div class="header_contentright_modification"></div>
+                </div> 
+            </div>
+        </div>
+    </header>
+    }
+
+    css {
+
+        .container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header{
+   background-color: #1717ca;
+  
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_content_left{
+    width: 146px;
+    background-color: #fff;
+   
+    
+}
+
+.header_content_right{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #acabb1;
+    border-radius: 28px;
+    border: 2px solid #fff;
+    padding: 10px;
+}
+.header_contentright_picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px dotted #2B11AFCC;
+    overflow: hidden;
+}
+.header_contentright_modification{
+    width:3px;
+    height:3px;
+    border-radius: 50%;
+    margin-left: 7px;
+    background-color: #000;
+    transform: translate(-50%,-50%);
+}
+.header_contentright_modification:before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #000;
+    top: -8px;
+    left: 0;
+}
+.header_contentright_modification:after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #000;
+    bottom: -8px;
+    left: 0;
+}
+    }
+
+}
